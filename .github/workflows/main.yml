@@ -2,7 +2,7 @@ name: Our Workflow
 on: push
 jobs:
   calculate:
-    runs-on: ubuntu-latest
+    runs-on: CDT-20-00048
     steps:
       - id: calc
         uses: andrew-ch-lee/test-action@main
