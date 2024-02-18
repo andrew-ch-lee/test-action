@@ -2,7 +2,7 @@ name: Our Workflow
 on: push
 jobs:
   calculate:
-    runs-on: self-hosted
+    runs-on: [self-hosted, Windows]
     steps:
       - id: calc
         uses: andrew-ch-lee/test-action@main
