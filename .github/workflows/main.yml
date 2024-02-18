@@ -5,3 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: andrew-ch-lee/test-action@main
+        with:
+          x: 12
+          y: 3
