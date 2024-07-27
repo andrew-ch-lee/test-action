@@ -1,7 +1,10 @@
-# test-action
+To get started, set your OPENAI_API_KEY environment variable, or other required keys for the providers you selected.
 
-test
+Next, edit promptfooconfig.yaml.
 
-test#13
+Then run:
+```
+promptfoo eval
+```
 
-sub-test#8
+Afterwards, you can view the results by running `promptfoo view`
